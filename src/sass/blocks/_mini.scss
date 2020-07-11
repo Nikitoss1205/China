@@ -1,0 +1,41 @@
+.mini {
+    min-height: 342px;
+    padding: 58px 0 75px;
+    &-round {
+        width: 102px;
+        height: 102px;
+        border: solid 1px #ffffff;
+        border-radius: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 21px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &-title {
+        margin-top: 15px;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        color: #ffffff;
+    }
+    &-descr {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 984px;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 1.42;
+        text-align: center;
+        color: #ffffff;
+    }
+    &_agent {
+        background: url('../img/bg/agent_bg.jpg') center (center / cover) no-repeat;
+    }
+    &_managers {
+        background: url('../img/bg/managers_bg.jpg') center (center / cover) no-repeat;
+    }
+}

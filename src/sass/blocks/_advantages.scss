@@ -1,0 +1,29 @@
+.advantages {
+    padding: 58px 0 82px;
+    min-height: 590px;
+    background-color: $bg-light-color;
+    &__item {
+        display: flex;
+        margin-top: 36px;
+    }
+    &__img {
+        margin-right: 17px;
+        width: 55px;
+        height: 66px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__header {
+        font-size: 16px;
+        font-weight: 700;
+        color: $main-color;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        color: $second-color;
+        margin-top: 2.5px;
+    }
+}

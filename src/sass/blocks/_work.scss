@@ -1,0 +1,22 @@
+.work {
+    min-height: 619px;
+    padding: 51px 0 57px;
+    &__items {
+        margin-top: 35px;
+    }
+    &__header {
+        margin-top: 24px;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        color: $main-color;
+    }
+    &__text {
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        text-align: justify;
+        color: $second-color;
+    }
+}

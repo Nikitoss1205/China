@@ -1,0 +1,33 @@
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 0.88;
+    text-align: center;
+    color: $first-color;
+    text-transform: uppercase;
+    &_adv {
+        margin-bottom: 10px;
+    }
+}
+
+.divider {
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+    display: block;
+    margin: 0 auto;
+    margin-top: 28px;
+    
+}
+
+.label {
+    display: block;
+    margin: 0 auto;
+    margin-top: 17px;
+    width: 879px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.14;
+    text-align: center;
+    color: $first-color;
+}

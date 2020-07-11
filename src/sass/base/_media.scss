@@ -1,0 +1,11 @@
+@media (max-height: 750px) {
+    .promo {
+        height: 100vh;
+    }
+}
+
+@media (max-height: 610px) {
+    .promo {
+        min-height: 680px;
+    }
+}

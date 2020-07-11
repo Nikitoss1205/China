@@ -1,0 +1,62 @@
+.price {
+    min-height: 608px;
+    padding: 53px 0 56px;
+    &__tabs {
+        margin-top: 34px;
+    }
+    &__tab {
+        padding: 0;
+        padding-bottom: 25px;
+        width: 265px;
+        border: solid 1px #e9e9e9;
+    }
+    &__header {
+        height: 61px;
+        background-color: $bg-dark-color;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        color: #ffffff;
+        display: block;
+        margin: 0 auto;
+        line-height: 100%;
+        padding-top: 23px;
+        text-transform: uppercase;
+    }
+    &__img {
+        margin-top: 14px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__days {
+        margin-top: 12px;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        color: $first-color;
+    }
+    &__number {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: -3px;
+        font-size: 28px;
+        font-weight: 500;
+        color: $main-color;
+    }
+    &__descr {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.43;
+        text-align: center;
+        color: $first-color;
+        height: 53px;
+        width: 212px;
+    }
+
+}

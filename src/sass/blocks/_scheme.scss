@@ -1,0 +1,34 @@
+.scheme {
+    height: 454px;
+    background-color: $bg-light-color;
+    padding: 51px 0 46px;
+    &__items {
+        margin-top: 9px;
+    }
+    &__item {
+        margin-top: 24px;
+    }
+    &__img {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__header {
+        margin-top: 12px;
+        font-size: 16px;
+        font-weight: 700;
+        color: $main-color;
+        text-align: center;
+    }
+    &__descr {
+        display: block;
+        margin: 0 auto;
+        width: 258px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.43;
+        text-align: center;
+        color: $second-color;
+    }
+}

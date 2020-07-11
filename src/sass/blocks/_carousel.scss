@@ -1,0 +1,25 @@
+.carousel {
+    margin-top: 31px;
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__header {
+        margin-top: 19px;
+        font-size: 18px;
+        font-weight: 700;
+        color: $second-color;
+        text-align: center;
+    }
+    &__descr {
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        text-align: justify;
+        color: $second-color;
+        width: 601px;
+    }
+}
