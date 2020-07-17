@@ -1,6 +1,4 @@
 @import 'base/variables';
-@import 'base/media';
-
 * {
     font-family: Roboto, sans-serif;
 }
@@ -8,6 +6,7 @@ input:focus {
     outline: none;
 }
 
+@import 'blocks/hamburger';
 @import 'blocks/pageup';
 @import 'blocks/mini';
 @import 'blocks/buttons';
@@ -25,3 +24,5 @@ input:focus {
 @import 'blocks/ask';
 @import 'blocks/map';
 @import 'blocks/footer';
+
+@import 'base/media';
