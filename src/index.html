@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="css/style.min.css">
     <title>Global Opt</title>
 </head>
@@ -25,13 +25,25 @@
                     <li class="header__link"><a href="#rewiews">Отзывы</a></li>
                     <li class="header__link"><a href="#map">Контакты</a></li>
                 </ul>
-
-                <div class="header__contacts">
-                    <div class="header__text">Есть вопросы?</div>
-                    <a href="tel:89264230100" class="header__phone">+7 (926) 423 01 00</a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
 
-                <button class="button button_main">Перезвоните мне</button>
+                <div class="header__wrapper">
+                    <div class="header__contacts">
+                        <div class="header__text">Есть вопросы?</div>
+                        <a href="tel:89264230100" class="header__phone">+7 (926) 423 01 00</a>
+                    </div>
+    
+                    <button class="button button_main">Перезвоните мне</button>
+                </div>
+
+                <div class="header__wrapper_mini">
+                    <a href="tel:89264230100" class="header__phone">+7 (926) 423 01 00</a>
+                    <button class="button button_main">Перезвоните мне</button>
+                </div>
             </header>
 
             <div class="promo__label">Global Opt - логистика полного цикла из Китая в Россию</div>
@@ -46,19 +58,19 @@
 
             <div class="promo__prewiew">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="promo__item col-md-3 col-sm-12">
                         <div class="promo__img"><img src="icons/promo/1.png" alt="1"></div>
                         <div class="promo__text">Перевозка негабаритных и крупнотоннажных грузов</div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="promo__item col-md-3 col-sm-12">
                         <div class="promo__img"><img src="icons/promo/2.png" alt="2"></div>
                         <div class="promo__text">Самостоятельно декларируем и проводим таможенную очистку с оптимизацией кодов и ставок</div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="promo__item col-md-3 col-sm-12">
                         <div class="promo__img"><img src="icons/promo/3.png" alt="3"></div>
                         <div class="promo__text">Осуществляем прямые поставки с заводов от двери до двери</div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="promo__item col-md-3 col-sm-12">
                         <div class="promo__img"><img src="icons/promo/4.png" alt="4"></div>
                         <div class="promo__text">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг</div>
                     </div>
@@ -151,17 +163,17 @@
 
             <div class="work__items">
                 <div class="row">
-                    <div class="work__item col-md-4">
+                    <div class="work__item col-lg-4 col-md-6">
                         <img src="img/work/1.jpg" alt="1" class="work__img">
                         <div class="work__header">Страховка груза</div>
                         <div class="work__text">Все грузы, логистику которых осуществляет Global Opt, застрахованы. Мы гарантируем полное возмещение стоимости груза в случаях, предусмотренных страхо- вым соглашением. Все ваши тревоги наша компания берет на себя.</div>
                     </div>
-                    <div class="work__item col-md-4">
+                    <div class="work__item col-lg-4 col-md-6">
                         <img src="img/work/2.jpg" alt="2" class="work__img">
                         <div class="work__header">Логистика последней мили</div>
                         <div class="work__text">Мы осуществляем доставку вашего груза до конкретного адреса. Привоз согласовывается менед- жерами по телефону, предварительно за сутки и за час до доставки. Также мы предоставляем услуги грузчи- ков по месту доставки груза.</div>
                     </div>
-                    <div class="work__item col-md-4">
+                    <div class="work__item col-lg-4 offset-lg-0 col-md-6 offset-md-3">
                         <img src="img/work/3.jpg" alt="3" class="work__img">
                         <div class="work__header">Мы всегда смотрим вперед</div>
                         <div class="work__text">Философия нашей компании, делать себя и своих партнеров по всему миру, успешными и богатыми. Поэтому мы всегда открыты к диалогу о партнерстве и инвестициях.</div>
@@ -190,7 +202,7 @@
 
             <div id="price" class="price__tabs">
                 <div class="row">
-                    <div class="price__tab col-md-3">
+                    <div class="price__tab col-lg-3 offset-lg-0 col-md-4 offset-md-1 col-8 offset-2">
                         <div class="price__header">Доставка морем</div>
                         <div class="price__img"><img src="icons/price/1.png" alt="1"></div>
                         <div class="price__days">Доставка 35-50 дней</div>
@@ -199,7 +211,7 @@
                         <button class="button button_price">Подробнее</button>
                     </div>
 
-                    <div class="price__tab col-md-3">
+                    <div class="price__tab col-lg-3 offset-lg-0 col-md-4 offset-md-2 col-8 offset-2">
                         <div class="price__header">Ж/Д доставка</div>
                         <div class="price__img"><img src="icons/price/2.png" alt="2"></div>
                         <div class="price__days">Доставка 15-28 дней</div>
@@ -209,7 +221,7 @@
                         <button class="button button_price">Подробнее</button>
                     </div>
 
-                    <div class="price__tab col-md-3">
+                    <div class="price__tab price__tab_last col-lg-3 offset-lg-0 col-md-4 offset-md-1 col-8 offset-2">
                         <div class="price__header">Автодоставка</div>
                         <div class="price__img"><img src="icons/price/3.png" alt="3"></div>
                         <div class="price__days">Доставка 12-20 дней</div>
@@ -219,7 +231,7 @@
                         <button class="button button_price">Подробнее</button>
                     </div>
 
-                    <div class="price__tab col-md-3">
+                    <div class="price__tab price__tab_last col-lg-3 offset-lg-0 col-md-4 offset-md-2 col-8 offset-2">
                         <div class="price__header">Авиа доставка</div>
                         <div class="price__img"><img src="icons/price/4.png" alt="4"></div>
                         <div class="price__days">Доставка 1-12 дней</div>
@@ -240,21 +252,23 @@
             <div class="consultation__round"><img src="icons/consultation.png" alt="consultation"></div>
 
             <form id="consultation" action="#" class="consultation__form">
-                <div class="input input_consul">
-                    <input name="name" type="text" placeholder="Ваше имя...">
-                    <input name="phone" placeholder="Ваш номер телефона...">
-                    <input name="email" type="email" placeholder="Ваш e-mail...">
+                <div class="consultation__border_mini">
+                    <div class="input input_consul">
+                        <input name="name" type="text" placeholder="Ваше имя...">
+                        <input name="phone" placeholder="Ваш номер телефона...">
+                        <input name="email" type="email" placeholder="Ваш e-mail...">
+                    </div>
+                    <button class="button button_consul">Отправить заявку</button>
                 </div>
-                <button class="button button_consul">Отправить заявку</button>
             </form>
 
-            <img src="icons/border.png" alt="border" class="consultation__border">
+            <div class="consultation__wrapper"><img src="icons/border.png" alt="border" class="consultation__border"></div>
         </div>
     </section>
 
     <section class="mini mini_managers">
         <div class="container">
-            <div class="mini-round"><img src="icons/managers.png" alt="managers"></div>
+            <div class="mini-round mini-round_managers"><img src="icons/managers.png" alt="managers"></div>
 
             <h2 class="mini-title">Менеджеры компании</h2>
 
@@ -268,43 +282,43 @@
 
             <div class="scheme__items">
                 <div class="row">
-                    <div class="scheme__item col-md-3">
+                    <div class="scheme__item col-lg-3 offset-lg-0 col-md-4">
                         <div class="scheme__img"><img src="icons/scheme/1.png" alt="1"></div>
                         <div class="scheme__header">Заявка</div>
                         <div class="scheme__descr">Вы оставляете заявку на нашем сайте или звоните нам</div>
                     </div>
 
-                    <div class="scheme__item col-md-3">
+                    <div class="scheme__item col-lg-3 offset-lg-0 col-md-4">
                         <div class="scheme__img"><img src="icons/scheme/2.png" alt="2"></div>
                         <div class="scheme__header">Аналитика доставки</div>
                         <div class="scheme__descr">Мы просчитываем варианты доставки Вашего груза</div>
                     </div>
 
-                    <div class="scheme__item col-md-3">
+                    <div class="scheme__item col-lg-3 offset-lg-0 col-md-4">
                         <div class="scheme__img"><img src="icons/scheme/3.png" alt="3"></div>
                         <div class="scheme__header">Договор</div>
                         <div class="scheme__descr">Заключаем с Вами договор о поставке груза из Китая</div>
                     </div>
 
-                    <div class="scheme__item col-md-3">
+                    <div class="scheme__item col-lg-3 offset-lg-0 col-md-4">
                         <div class="scheme__img"><img src="icons/scheme/4.png" alt="4"></div>
                         <div class="scheme__header">Доставка на наш склад</div>
                         <div class="scheme__descr">Связываемся с Вашим поставщиком в Китае и договариваемся о доставке груза на наш склад</div>
                     </div>
 
-                    <div class="scheme__item col-md-3 offset-md-1">
+                    <div class="scheme__item col-lg-3 offset-lg-1 col-md-4">
                         <div class="scheme__img"><img src="icons/scheme/5.png" alt="5"></div>
                         <div class="scheme__header">Проверка груза</div>
                         <div class="scheme__descr">Мы проверяем, собираем и упаковываем перед отправкой Ваш груз на своём складе</div>
                     </div>
 
-                    <div class="scheme__item col-md-4">
+                    <div class="scheme__item col-lg-4 offset-lg-0 col-md-4">
                         <div class="scheme__img"><img src="icons/scheme/6.png" alt="6"></div>
                         <div class="scheme__header">Доставка груза</div>
                         <div class="scheme__descr">Мы перевозим ваш груз до места назначения и производим таможенную очистку</div>
                     </div>
 
-                    <div class="scheme__item col-md-3">
+                    <div class="scheme__item col-lg-3 offset-lg-0 col-md-4 offset-md-4">
                         <div class="scheme__img"><img src="icons/scheme/7.png" alt="7"></div>
                         <div class="scheme__header">Оплата</div>
                         <div class="scheme__descr">Оплачиваете доставку груза при получении</div>
@@ -325,6 +339,18 @@
             <div class="carousel__inner">
                 <div>
                     <img src="icons/rewiews/main.png" alt="1">
+                    <div class="carousel__header">Анисимова Ольга</div>
+                    <div class="carousel__descr">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
+                </div>
+
+                <div id="middle">
+                    <img src="icons/rewiews/main.png" alt="2">
+                    <div class="carousel__header">Анисимова Ольга</div>
+                    <div class="carousel__descr">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
+                </div>
+
+                <div>
+                    <img src="icons/rewiews/main.png" alt="3">
                     <div class="carousel__header">Анисимова Ольга</div>
                     <div class="carousel__descr">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
                 </div>
@@ -371,24 +397,24 @@
         <div class="container">
             <div class="footer__main">
                 <div class="row">
-                    <div class="footer__logo col-md-1"><img src="icons/logo.png" alt="logo"></div>
+                    <div class="footer__logo col-lg-1 offset-lg-0 col-md-1 offset-md-2 col-sm-2 offset-sm-1 col-1"><img src="icons/logo.png" alt="logo"></div>
 
-                    <div class="footer__label col-md-5">Global Opt - Доставка грузов из Китая в Россию и СНГ</div>
+                    <div class="footer__label col-lg-5 offset-lg-0 col-md-6 offset-md-1 col-sm-8 col-10 offset-1">Global Opt - Доставка грузов из Китая в Россию и СНГ</div>
 
                     <div class="footer__contacts col-md-2 offset-md-2">
                         <div class="footer__ask">Есть вопросы?</div>
                         <a href="tel:89264230100" class="footer__phone">+7 (926) 423 01 00</a>
                     </div>
 
-                    <button class="button button_foot col-md-2">Перезвоните мне</button>
+                    <button class="button button_foot button_foot_main col-md-2  offset-md-0">Перезвоните мне</button>
                 </div>
             </div>
 
             <div class="footer__down">
                 <div class="row">
-                    <div class="footer__scratch col-md-2">© 2010 Scratch.com.ua</div>
-                    <div class="footer__confid col-md-3 offset-md-2">Политика конфидециальности</div>
-                    <div class="footer__make col-md-2 offset-md-3">
+                    <div class="footer__scratch col-md-2 offset-md-0 col-sm-4 offset-sm-4">© 2010 Scratch.com.ua</div>
+                    <div class="footer__confid col-md-3 offset-md-2 col-sm-4 offset-sm-4">Политика конфидециальности</div>
+                    <div class="footer__make col-md-2 offset-md-3 col-sm-4 offset-sm-4">
                         <div class="footer__text">Создание сайта:</div>
                         <div class="footer__maker"><img src="icons/make.png" alt="maker"></div>
                     </div>
@@ -399,10 +425,12 @@
         <div class="footer__divider"></div>
     </footer>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/slick.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

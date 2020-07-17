@@ -49,4 +49,10 @@
             text-decoration: none;
         }
     }
+    &__wrapper {
+        display: flex;
+        &_mini {
+            display: none;
+        }
+    }
 }

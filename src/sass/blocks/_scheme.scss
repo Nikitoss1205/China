@@ -1,5 +1,5 @@
 .scheme {
-    height: 454px;
+    min-height: 454px;
     background-color: $bg-light-color;
     padding: 51px 0 46px;
     &__items {
@@ -9,12 +9,15 @@
         margin-top: 24px;
     }
     &__img {
+        height: 57px;
         img {
             display: block;
             margin: 0 auto;
         }
     }
     &__header {
+        display: block;
+        margin: 0 auto;
         margin-top: 12px;
         font-size: 16px;
         font-weight: 700;
